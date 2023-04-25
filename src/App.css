@@ -54,7 +54,7 @@
     radial-gradient(at 97% 96%, rgb(113, 176, 209) 0px, transparent 60%),
     radial-gradient(at 33% 50%, rgb(43, 82, 174) 0px, transparent 60%),
     radial-gradient(at 79% 53%, rgb(188, 31, 78) 0px, transparent 60%); */
-    background-image:  linear-gradient(rgb(240, 162, 162), rgb(0, 255, 195), rgb(246, 184, 242));
+    background-image:  linear-gradient(rgb(240, 162, 162), rgb(0, 255, 195), rgb(136, 168, 228));
   position: absolute;
   content: "";
   position: fixed; 
@@ -84,7 +84,7 @@
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
+  @apply mt-5 text-5xl font-extrabold leading-[1.15] sm:text-6xl text-center;
 }
 
 .orange_gradient {
