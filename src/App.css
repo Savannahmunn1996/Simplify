@@ -43,17 +43,7 @@
   z-index: 3;
   width: 100%;
   max-width: 640px;
-  /* background-image: radial-gradient(
-      at 27% 37%,
-      rgb(86, 140, 216) 0px,
-      transparent 0%
-    ),
-    radial-gradient(at 97% 21%, rgb(188, 31, 78) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, rgb(14, 152, 76) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, rgb(80, 176, 232) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, rgb(113, 176, 209) 0px, transparent 60%),
-    radial-gradient(at 33% 50%, rgb(43, 82, 174) 0px, transparent 60%),
-    radial-gradient(at 79% 53%, rgb(188, 31, 78) 0px, transparent 60%); */
+  
     background-image:  linear-gradient(rgb(240, 162, 162), rgb(0, 255, 195), rgb(136, 168, 228));
   position: absolute;
   content: "";
@@ -96,11 +86,11 @@
 }
 
 .url_input {
-  @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 pl-10 pr-12 text-sm shadow-lg font-chakra font-medium focus:border-black focus:outline-none focus:ring-0;
+  @apply block w-full rounded-xl border border-blue-500 bg-blue-200 py-2.5 pl-10 pr-12 text-sm shadow-lg font-chakra font-medium focus:border-pink-500 focus:outline-none focus:ring-0;
 }
 
 .submit_btn {
-  @apply hover:border-gray-700 hover:text-gray-700 absolute inset-y-0 right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-200 font-sans text-sm font-medium text-gray-400;
+  @apply hover:border-gray-700 hover:text-gray-700 absolute  right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-blue-600 font-chakra text-sm font-medium ;
 }
 
 .link_card {
